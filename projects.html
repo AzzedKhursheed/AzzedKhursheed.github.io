@@ -1,28 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/style.css" type="text/css"/>
-    <title>Azzed's Projects</title>
+
+    <title>HomePage</title>
 </head>
 <body>
-    <header>Projects</header>
-    <div class= "wrapper">
-        <div class= "container">
-            <div class= "menuLogo"></div>
-            <div class= "menuLogo"></div>
-            <div class= "menuLogo"></div>
-        </div>
-    </div>
-    <ul class = "menu">
-        <li><a href="home.html">Home</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="#">Contact me</a></li>
-    </ul>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html"><b>Home</b></a></li>
+                <li><a href="Book.html"><b>My Favourite Book</b></a></li>
+                <li><a href="ContactMe.html"><b>Contact me</b></a></li>
+                <li><a href="projects.html"><b>JavaScript Stunt Car</b></a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1><u>Javascript Stunt Car</u></h1>
+    <section>
+        <article class="projects">
+            <dl>
+                <dt><b>Project Description</b></dt>
+                <dd>Transformation of a 3D Viewing Pipeline to 3D dimensional points, in such a way as to compute their corresponding canvas/viewport coordinates, that would allow us to “draw” a three-dimensional line/shape/polygon, by essentially drawing the same type of geometric shape but using the projected points onto 2D canvas (i.e. “viewport”) coordinates.</dd>
+                <dd>Write a program that visualizes a 3D scene, as viewed from a movable camera, and use 2D Canvas drawing operations to construct a 2D projected view of it on your screen.</dd>
+                
+                <dt><b>Features</b></dt>
+                <dd>Automatic moving camera</dd>
+                <dd>Hierarchical model</dd>
+                <dd>Parametric curve</dd>
+                <dd>Projection transformation</dd>
+            </dl>
+        </article>
+
+        <canvas id="myCanvas" width="400" height="400" style="border:1px solid"></canvas>
+        <script type="text/javascript" src="assets/gl-matrix-min.js"></script>
+        <script src="assets/p5.js" id="module"></script>
+    
+    </section>
+    
 
     
-    <script src="assets/script.js"></script>
 </body>
 </html>

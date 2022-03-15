@@ -3,80 +3,167 @@
     padding: 0;
     font-family: Georgia, 'Times New Roman', Times, serif;
     box-sizing:border-box;
+    text-align: center;
+}
+a{
+    color: rgb(255, 255, 255);
+}
+
+canvas{
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(134, 158, 202) ;
+    float: right;
+}
+body{
+    width: 900px;
+    margin: 0 auto;
+    border: ridge;
+}
+body.contact{
+    width: 900px;
+    border: ridge;
+
+}
+
+section{
+    overflow: auto;
+    height: 100%;
+}
+
+article{
+    background-color: rgb(57, 98, 175) ;
+    padding: 10px;
+    margin: 10px;
+}
+article.projects{
+    background-color: rgb(57, 98, 175) ;
+    padding: 10px;
+    margin: 10px;
+    float: left;
+    width: 48%;
+    height: 420px;
+}
+dt{
+    color: rgb(255, 255, 255);
+    text-align: left;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+dd{
+    color: rgb(255, 255, 255);
+    text-align: left;
+    padding-bottom: 10px ;
+
+}
+main{
+    background-color: rgb(57, 98, 175) ;
+    padding: 10px;
+    width: 70%;
+    height: 292px;
+    margin: 10px;
+    float: left;
+}
+main.contact{
+    background-color: rgb(57, 142, 175) ;
+    padding: 10px;
+    width: 97.8%;
+    height: 300px;
+    margin: 10px;
+    float: left;
+}
+
+
+img{
+    background-color: rgb(57, 98, 175) ;
+    padding: 10px;
+    width: 25%;
+    margin: 10px;
+    float: right;
+}
+img.book{
+    background-color: rgb(57, 98, 175) ;
+    padding: 10px;
+    width: 410px;
+    margin: 10px;
+    float: right;
+}
+img.contact{
+    background-color: rgb(57, 142, 175) ;
+    padding: 10px;
+    width: 210px;
+    margin: 10px;
+    float: right;
+}
+ul.contact{
+    display: inline-flex;
+}
+
+
+nav{
+    background-color: rgb(57, 98, 175) ;
+    padding: 10px;
+    margin: 10px;
+}
+
+nav.contact{
+    background-color: rgb(57, 142, 175) ;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+li{
+    display: inline-flex;
+    padding: 10px; 
+}
+li.contact{
+    text-align: left;
+    display:flow-root;
 }
 
 body{
     background-color:cornflowerblue;
 
 }
-.wrapper{
-    width: 100%;
-    margin: 0 auto; /*whotup*/
-
+p{
+    color: azure;
 }
 
-.container{
-    background-color: rgb(100, 148, 237);
-    float: right;
-    height: 25px;
-    width: 40px;
-    margin-top: 20px;
-    display:flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    cursor: pointer;
+p.contact{
+    
+    text-align: left;
+    padding: 10px;
+}
+p.contact2{
+    font-size: 10px;
+    text-align: left;
+    padding: 10px;
+}
+p.book{
+    text-align: left;
 }
 
-.menuLogo{
-    height: 3px;
-    width: 30px;
-    background-color: whitesmoke;
-
+h1.contact{
+    color: aliceblue;
+    text-align: left;
+    padding-left: 15px;
+    padding-bottom: 10px;
 }
-
-.menu{
-    width: 15%;
-    height: 100vh;
-    background-color: rgba(61, 92, 150, 0.411);
-    padding: 50px;
-    transform: translateX();
-    transition: 0.5s
+h1{
+    color: rgb(24, 24, 24);
+    padding-left: 15px;
+    padding-bottom: 10px;
+    
 }
-
-.menu li{
-    list-style-type: none;;
-    border-bottom: 1px solid rgb(95, 95, 95);
-    padding: 30px 0;
-    text-align: center;
-}
-
-.showMenu{
-    transform: translateX(1000px);
-}
-
-.menu li a{
-    /* background-color: rgba(100, 148, 237, 0.562); */
-    color: whitesmoke;
-    font-size: 20px;
-}
-
-.menu li a:hover{
-    font-weight: bolder;
-}
- 
-@media screen and(min-width:1000px){
-    .menu{
-        width: 500px;
-    }
+h2{
+    color: rgb(255, 255, 255);
+    padding-left: 15px;
+    padding-bottom: 10px;
     
 }
 
-@media screen and(max-width: 600px ) {
-    .menu li a{
-        font-size: 16px;
-    }
-}
+
 
 
 
